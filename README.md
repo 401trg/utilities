@@ -9,7 +9,7 @@ Our public PGP Key can be found [here](https://keybase.io/401trg/pgp_keys.asc?fi
 
 | Directory                                                                                                         | Link                                                                                                                                                                                                | Published    |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| [popularDomains.py](https://github.com/401trg/utilities/blob/master/popularDomains.py) | [Triaging Large Packet Captures - Methods for Extracting & Analyzing Domains](https://401trg.pw/triaging-large-packet-captures-methods-for-extracting-analyzing-domains) | Nov 27, 2017 |
+| [popularDomains.py](https://github.com/401trg/utilities/blob/master/popularDomains.py) | [Triaging Large Packet Captures - Methods for Extracting & Analyzing Domains](https://401trg.pw/triaging-large-packet-captures-methods-for-extracting-analyzing-domains) | Nov 28, 2017 |
 | [suricata_et_rule_update.py](https://github.com/401trg/utilities/blob/master/suricata_et_rule_update.py) | [Using Emerging Threats Suricata Ruleset to Scan PCAP](https://401trg.pw/using-emergingthreats-suricata-ruleset-to-scan-pcap/) | Nov 14, 2017 |
 
 
