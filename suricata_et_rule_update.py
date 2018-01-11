@@ -22,7 +22,7 @@ def main():
       update yaml
   '''
   path_suricata = '/etc/suricata/'
-  base_url = 'https://rules.emergingthreats.net/open/suricata-1.3-enhanced/'
+  base_url = 'https://rules.emergingthreats.net/open/suricata-4.0-enhanced/'
   filename_rule_tar = 'emerging.rules.tar.gz'
   filename_rule_desc = 'SID-Descriptions-ETOpen.json.gz'
   filename_yaml = 'suricata-1.3-open.yaml'
@@ -35,7 +35,7 @@ def main():
   if hash_diff:
     updated_files = download_suri_files(suri_files)
     extract_files(suri_files)
-    move_files('/etc/suricata/{0}/rules/'.format(filename_rule_tar.replace('.tar.gz','')), path_suricata+'rules/')
+    move_files(f"/etc/suricata/{filename_rule_tar.replace('.tar.gz','')}/rules/", path_suricata+'rules/')
 
     # modify yaml
     if path_suricata+filename_yaml in updated_files:
@@ -43,7 +43,7 @@ def main():
 #
 def hash_local_vs_site(path_local_file, url_site_md5):
   ''' hash local file and compare to hash at url '''
-  print('comparing hash {0} with {1}'.format(path_local_file, url_site_md5))
+  print(f'comparing hash {path_local_file} with {url_site_md5}')
 
   diff = False
   if not path.exists(path_local_file):
@@ -71,12 +71,12 @@ def download_suri_files(file_list):
   updated_files = []
   for f in file_list:
     if path.exists(f['path']):
-      print(' {0} to {1}'.format(f['url'], f['path']))
+      print(f" {f['url']} to {f['path']}")
       urllib.request.urlretrieve(f['url'], f['path'], reporthook)
       print()
       updated_files.append(f['path'])
     else:
-      print(' new {0}'.format(f['path']))
+      print(f" new {f['path']}")
       urllib.request.urlretrieve(f['url'], f['path'], reporthook)
       print()
       updated_files.append(f['path'])
@@ -122,7 +122,7 @@ def unzip(file_path):
 #
 def move_files(src_dir, dst_dir):
   ''' move all files from src_dir to dst_dir '''
-  print('moving from {0} to {1}'.format(src_dir, dst_dir))
+  print(f'moving from {src_dir} to {dst_dir}')
   for source_file in listdir(src_dir):
     shutil.move(path.join(src_dir, source_file), path.join(dst_dir, source_file))
 #
