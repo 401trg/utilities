@@ -19,7 +19,7 @@ Our public PGP Key can be found [here](https://keybase.io/401trg/pgp_keys.asc?fi
  | Oct 26, 2017 | Large Scale IRCbot Infection Attempts | |
 | Oct 16, 2017 | [An Update on Winnti](https://401trg.github.io/pages/an-update-on-winnti.html) | |
 | Oct 10, 2017 | Turla Watering Hole Campaigns 2016/2017 | |
-| Oct 02, 2017 | [Identifying and Triaging DNS Traffic on Your Network](https://401trg.github.io/pages/identifying-and-triaging-dns-traffic-on-your-network/)| |
+| Oct 02, 2017 | [Identifying and Triaging DNS Traffic on Your Network](https://401trg.github.io/pages/identifying-and-triaging-dns-traffic-on-your-network.html)| |
 | Sept 28, 2017 | [Triaging Large Packet Captures - 4 Key TShark Commands to Start Your Investigation](https://401trg.github.io/triaging-large-packet-captures-4-key-tshark-commands-to-start-your-investigation.html) |  |
 | Jul 11, 2017 | [Winnti (LEAD/APT17) Evolution - Going Open Source](https://401trg.github.io/pages/winnti-evolution-going-open-source/) | | 
 
