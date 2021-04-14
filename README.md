@@ -9,6 +9,7 @@ Our public PGP Key can be found [here](https://keybase.io/401trg/pgp_keys.asc?fi
 
 | Published | Post | Utilities |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| May 03, 2018 | [Burning Umbrella: An Intelligence Report on the Winnti Umbrella and Associated State-Sponsored Attackers](https://401trg.github.io/pages/burning-umbrella.html) | |
 | Apr 02, 2018 | [Building a Data Lake for Threat Research](https://401trg.github.io/pages/building-a-data-lake-for-threat-research.html) | |
 | Feb 22, 2018 | Analysis of Active Satori Botnet Infections | |
 | Dec 20, 2017 | [An Introduction to SMB for Network Security Analysts](https://401trg.github.io/pages/an-introduction-to-smb-for-network-security-analysts.html)| |
